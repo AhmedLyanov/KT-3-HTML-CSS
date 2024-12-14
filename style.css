@@ -1,0 +1,728 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Press+Start+2P&family=Protest+Guerrilla&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+:root{
+    --mainColor: #ffffff; 
+    --blackColor: #000000;
+}
+
+
+/*Стилизация Header*/
+
+header{
+    width: 1,440px;
+    height:88px;
+    padding: 16px 160px 16px 160px;
+    gap: 0px;
+    border: 0px 0px 1px 0px;
+    display: flex;
+    opacity: 0px;
+    border-bottom: 1px solid #B5B5B5;
+    background: var(--mainColor);
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Logo_Box{
+    width: 65.4px;
+    height: 22.87px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.logo_text_header{
+    color: var(--blackColor);
+
+}
+
+.input_search_box{
+    width:372px;
+    height: 56px;
+    display: flex;  
+    align-items: center;
+    background: #F5F5F5;
+    padding-inline: 16px;
+    border-radius: 8px
+}
+
+.input_search_box input{
+    width:372px;
+    height: 56px;
+    padding-inline: 15px;
+    background: transparent;
+
+}
+
+.input_search_box input::placeholder{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight:500;
+    color: #656565;
+    line-height: 18px;
+}
+
+
+.input_search_box input:focus{
+    outline: none;
+}
+
+nav{
+    width:363px;  
+    height: 19px;
+    gap: 52px;
+    opacity: 0px;
+    display: flex;
+}
+
+.nav_button_functional{
+    color: #656565;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight:500;
+    color: #656565;
+    line-height: 19px;
+    background: transparent;
+    transition: all 0.5s;
+}
+
+
+.nav_button_functional:hover{
+    color: var(--blackColor);
+}
+
+.box_user_info{
+    display: flex;
+    gap: 24px;
+}
+
+
+/*Стилизация Header*/
+
+
+
+/* Стилизация рекламного баннера после header*/
+
+.main_named_banner_product{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 96px;
+    font-style: normal;
+    color: #ffffff;
+}
+.main_description_banner_product{
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #909090;
+}
+.buy_product_button_banner{
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid #ffffff;
+    background: transparent;
+    font-family: "inter" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #ffffff;
+    transition: all 0.3s;
+}
+.buy_product_button_banner:hover{
+    background-color: #ffffff;
+    color: #000000;
+    cursor: pointer;
+}
+.buy_product_button_banner:active{
+    transform: scale(0.95);
+}
+.banner_container {
+    position: relative;
+    height: 632px;
+    background: linear-gradient(90.7deg, #211C24 0.64%, #211C24 101%);
+    padding: 0px 160px;
+    position: relative;
+    display: flex; 
+    align-items: center; 
+}
+
+.table_info_image_banner {
+    width: 714px;
+    height: 256px;
+    min-width: 400px;
+    display: grid;
+}
+.image_element_box{
+    position: absolute;
+    left: 60%;
+}
+
+/* Стилизация рекламного баннера после header*/
+
+/*Стилизация нижнего баннера*/
+
+.section_number_two{
+    display: grid;
+    justify-items: center;
+}
+
+.container_banner_bottom{
+    width: 100%;
+    height: 600px;
+    display: flex;
+}
+
+.banner_bottom_content_right{
+    width: 1000px;
+    background: #EDEDED;
+    display: flex;
+
+}
+
+.bbcr_left_title{
+    width: 500px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+}
+
+.box_bbcr_left{
+    width: 360px;
+    height: 192px;
+    display: grid;
+}
+
+.bbcr_right_image{
+    width: 500px;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.bbcr_right_image img{
+    width: 292px;
+    height: 502px;
+    position: absolute;
+}
+.summerSaleText button{
+    width: 184px;
+    height: H56px;
+    padding: 16px 56px 16px 56px;
+    gap: 8px;
+    border-radius: 6px;
+    border: 1px solid var(--mainColor);
+    color: var(--mainColor);
+    opacity: 0px;
+    background: transparent;
+}
+.banner_bottom_content_left{
+    width: 900px;
+}
+
+.buy_product_button_banner_bottom{
+    width: 184px;
+    height: 56px;
+    border-radius: 6px;
+    border: 1px solid #000000;
+    background: transparent;
+    font-family: "inter" sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #000000;
+    transition: all 0.3s;
+}
+.buy_product_button_banner_bottom:hover{
+    background-color: #000000 ;
+    color:#ffffff ;
+    cursor: pointer;
+}
+.buy_product_button_banner_bottom:active{
+    transform: scale(0.95);
+}
+
+.box_bbcr_left_title{
+    font-family: "Inter", sans-serif;
+    font-size: 64px;
+    font-weight: 200;
+    line-height: 56px;
+}
+.box_bbcr_left_description{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+}
+
+.Banner_bottom_content_left_child_top{
+    height: 300px;
+    width: 100%;
+    background: #FFFFFF;
+    display: flex;
+}
+
+
+.bbclct_left_image{
+    width: 370px;
+    height: 300px;
+    position: relative;
+}
+
+.bbclct_left_image img{
+    position: absolute;
+    width: 305px;
+    height: 300px;
+
+}
+
+
+.bbclct_right_title{
+    width: 450px;
+    height: 300px;
+    padding: 85px 30px 85px 30px;
+    display: grid;
+    justify-items: center;
+}
+
+
+
+.bbclct_right_text_box{
+    font-family: "Inter", sans-serif;
+    font-size: 49px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+
+.title_named_text_bbclct_right{
+    display: grid;
+}
+
+
+.bbclct_right_description_box{
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #909090;
+}
+
+
+.Banner_bottom_content_left_child_bottom{
+    height: 300px;
+    width: 100%;
+    display: flex;
+}
+
+
+.Bbclc_left_child{
+    width: 450px;
+    background-color: #e2e1e1;
+    height: 300px;
+}
+
+.Bbclc_right_child{
+    width: 450px;
+    height: 300px;
+    background-color: #353535;
+}
+
+.image36 {
+    position: absolute;
+    margin-top: 60px;
+}
+
+
+.apple-vision-pro {
+    width: 160px;
+    height: 80px;
+    font-family: 'SF Pro Display', sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 40px; 
+    color: #FFFFFF; 
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 83px;
+}
+
+.immersive-experience {
+    width: 160px;
+    height: 48px;
+    font-family: 'SF Pro Display', sans-serif; 
+    font-style: normal;
+    font-size: 14px;
+    line-height: 24px; 
+    margin-top: 165px;
+    margin-left: 200px;
+    color: #919191;
+    order: 1;
+    position: absolute;
+}
+
+.Ploto{
+    margin-top: 25px;
+}
+
+
+.apple-airpods-max {
+    font-family: 'SF Pro Display', sans-serif; 
+    font-style: normal;
+    font-weight: 300;
+    font-size: 29px;
+    line-height: 40px;
+    color: #000000; 
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin-left: 200px;
+    margin-top: 80px;
+    position: absolute; 
+}
+
+.highlight {
+    font-weight: bold; 
+    color: #000000; 
+}
+
+.computational-audio {
+    width: 160px;
+    height: 48px;
+    font-family: 'SF Pro Display', sans-serif; 
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px; 
+    color: #919191; 
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 160px;
+}
+/*Стилизация нижнего баннера*/
+
+/*Стилизация каталога товаров*/
+.section_number_three {
+    height: 232px;
+    width: calc(100% - 660px); 
+    padding: 50px 330px; 
+    gap: 32px;
+    display: grid;
+    justify-content: center;
+    background: #FAFAFA;
+    position: relative;
+    left: 50%; 
+    transform: translateX(-50%); 
+}
+
+.catalog_part {
+    height: 515px;
+    display: flex;
+    gap: 55px;
+    justify-content: center;
+}
+.Container_Cards_Catalog{
+    height: 128px;
+    display: flex;
+    gap: 30px;
+}
+.Named_Category_Box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Button_Carousel_List{
+    background: transparent;
+}
+.Carousel_Catalog_Buttons_Box{
+    width: 80px;
+    height: 32px;
+    display: flex;
+    gap: 16px;
+}
+
+.named_category_text{
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 550;
+    line-height: 32px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+   
+}
+
+.Card_Element_Container{
+    width:160px;
+    height: 90px;
+    min-width: 135px;
+    padding: 24px 0px 24px 0px;
+    gap: 8px;
+    border-radius: 15px;
+    background: #EDEDED;
+    display: grid;
+    justify-items: center;
+    transition: all 0.2s;
+}
+
+.Card_Element_Container:hover{
+    background: #cbcbcb;
+    cursor: pointer;
+}
+
+.img_card{
+    width: 48px;
+    height: 48px;
+ 
+}
+
+.text_card_named{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: grid;
+    align-items: center;
+}
+
+
+/*Стилизация каталога*/
+.section_number_four{
+    display: grid;
+    padding: 50px 100px;
+}
+.Element_Card_Box{
+    width: 268px;
+    height: 432px;
+    min-width: 200px;
+    padding: 24px 16px 24px 16px;
+    gap: 16px;
+    border-radius: 9px ;
+    opacity: 0px;
+    display: grid;
+    background: #F6F6F6;
+    justify-items: center;
+}
+
+.title_card_product{
+    width: 236px;
+    display: grid;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+
+}
+
+.Box_info_Card{
+    font-family: "Inter", sans-serif;
+}
+
+.Price_Card_Product{
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+.Button_Buy_Product{
+    display: grid;
+    justify-items: center;
+}
+.buy_product_card_button{
+    width: 183px;
+    height: 48px;
+    padding: 12px 64px 12px 64px;
+    gap: 8px;
+    border-radius: 8px;
+    color: var(--mainColor);
+    opacity: 0px;
+    background: var(--blackColor);
+}
+
+.Box_info_Card{
+    display: grid;
+    gap: 24px;
+}
+
+.summerSale {
+    width: 100%;
+    height: 548px;
+    margin-top: 150px;
+    background-image: url(img/saleBack.jpeg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summerSaleText {
+    width: 591px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.summerSaleText_p1 {
+    font-family: 'Inter', sans-serif;
+    font-size: 72px;
+    font-weight: 200;
+    line-height: 72px;
+    letter-spacing: -0.01em;
+    text-align: center;
+    color: white;
+}
+
+.summerSaleText_s {
+    font-weight: 500;
+}
+
+.summerSaleText_p2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+    color: #787878;
+}
+
+.summerSaleText_btn {
+    width: 184px;
+    height: 56px;
+    padding: 16px 56px;
+    border-radius: 6px;
+    border: 1px solid white;
+    margin-left: 200px;
+    margin-top: 50px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.summerSaleText_btn.active {
+    background-color: white;
+    color: black;
+    transform: scale(0.95);
+}
+
+footer {
+    height: 504px;
+    background-color: #000;
+    padding-top: 120px;
+    padding-left: 320px;
+}
+
+.info {
+    width: 1320px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-text {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.footerLogo {
+    width: 85px;
+    height: 27px;
+    background-image: url(../../media/FooterLogo.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
+.textFooter {
+    width: 384px;
+    height: 48px;
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 23.87px;
+    color: #cfcfcf;
+    margin-top: 26px;
+}
+
+.footerNavigation {
+    width: 723px;
+    height: 256px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 295px;
+}
+
+.links_p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #fff;
+}
+
+.links_a {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    color: #CFCFCF;
+    text-decoration: none;
+}
+
+.links_a:hover {
+    text-decoration: underline;
+}
+
+.networks {
+    width: 173px;
+    height: 16px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.networks_Img {
+    width: 16px;
+    height: 16px;
+}

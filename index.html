@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="Logo_Box">
+            <picture>
+                <div class="logo_text_header">
+                    <img src="./img/Website-Logo.svg" alt="" srcset="">
+                </div>
+            </picture>
+        </div>
+
+        <div class="input_search_box">
+            <div class="img_search_img_box">
+                <picture>
+                    <img src="./img/Search.svg">
+                </picture>
+            </div>
+            <input type="text" placeholder="Search">
+        </div>
+
+        <nav class="navigation_header">
+           <button class="nav_button_functional">Home</button>
+           <button class="nav_button_functional">About</button>
+           <button class="nav_button_functional">Contact us</button>
+           <button class="nav_button_functional">Blog</button>
+        </nav>
+
+
+        <div class="box_user_info">
+            <div class="info_user_box">
+                <picture>
+                    <img src="./img/Vector.svg" alt="">
+                </picture>
+            </div>
+            <div class="info_user_box">
+                <picture>
+                    <img src="./img/Vector2.svg" alt="">
+                </picture>
+            </div>
+            <div class="info_user_box">
+                <picture>
+                    <img src="./img/Vector3.svg" alt="">
+                </picture>
+            </div>
+        </div>
+
+
+
+
+    </header>
+    <main>
+        <section class="section_number_one">
+
+            <div class="banner_container">
+                <div class="table_info_image_banner">
+                    <div class="main_named_banner_product">
+                        IPhone 14 Pro
+                    </div>
+                    <div class="main_description_banner_product">
+                        Created to change everything for the better. For everyone
+                    </div>
+                    <div class="button_banner_container">
+                        <button class="buy_product_button_banner">Shop Now</button>
+                    </div>
+                </div>
+                <div class="image_element_box">
+                    <img src="img/Iphone Image.svg" alt="IPhone 14 Pro">
+                </div>
+            </div>
+
+        </section> 
+        <section class="section_number_two">
+            <div class="container_banner_bottom">
+                <div class="banner_bottom_content_left">
+                    <div class="Banner_bottom_content_left_child_top">
+                        <div class="bbclct_left_image">
+                            <img src="img/PlayStation.jpg" alt="Playstation 5" />
+                        </div>
+                        <div class="bbclct_right_title">
+                            <div class="title_named_text_bbclct_right">
+                                <div class="bbclct_right_text_box">Playstation 5</div>
+                                <div class="bbclct_right_description_box">
+                                    Incredibly powerful CPUs, GPUs, and an SSD with integrated I/O will redefine your PlayStation experience.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="Banner_bottom_content_left_child_bottom">
+                        <div class="Bbclc_left_child">
+                            <div class="apple-airpods-max">
+                                <div>Apple</div>
+                                <div>
+                                    AirPods <span class="highlight">M</span><strong>a</strong><strong>x</strong>
+                                </div>
+                            </div>
+                            <div class="computational-audio">Computational audio. Listen, it's powerful</div>
+                            <img class="Ploto" src="img/pods.png" alt="Apple AirPods Max" />
+                        </div>
+                        <div class="Bbclc_right_child">
+                            <div class="apple-vision-pro">Apple Vision Pro</div>
+                            <div class="immersive-experience">An immersive way to experience entertainment</div>
+                            <img class="image36" src="img/image 36.png" alt="Apple Vision Pro" />
+                        </div>
+                    </div>
+                </div>
+                <div class="banner_bottom_content_right">
+                    <div class="bbcr_left_title">
+                        <div class="box_bbcr_left">
+                            <div class="box_bbcr_left_title">
+                                Macbook Air
+                            </div>
+                            <div class="box_bbcr_left_description">
+                                The new 15‑inch MacBook Air makes room for more of what you love with a spacious Liquid Retina display.
+                            </div>
+                            <div class="box_bbcr_left_button">
+                                <button class="buy_product_button_banner_bottom">Shop Now</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="bbcr_right_image">
+                        <img src="img/MacBook Pro 14.jpg" alt="MacBook Air" />
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section_number_three">
+            <div class="Catalog_Carousel_Section">
+                <div class="Named_Category_Box">
+                    <span class="named_category_text">Browse By Category</span>
+                    <div class="Carousel_Catalog_Buttons_Box">
+                        <button class="Button_Carousel_List" onClick={prevPage}>
+                            <picture>
+                                <img src="img/Arrow-Left.svg" alt="Previous" />
+                            </picture>
+                        </button>
+                        <button class="Button_Carousel_List" onClick={nextPage}>
+                            <picture>
+                                <img src="img/Arrow-Right.svg" alt="Next" />
+                            </picture>
+                        </button>
+                    </div>
+                </div>
+                <div class="Container_Cards_Catalog">
+                   
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Phones.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                               Phones
+                            </span>
+                        </div>
+
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Smart Watches.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                               Smart Watches
+                            </span>
+                        </div>
+
+
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Cameras.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                               Cameras
+                            </span>
+                        </div>
+
+
+
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Headphones.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                               Headphones
+                            </span>
+                        </div>
+
+
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Computers.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                               Computers
+                            </span>
+                        </div>
+
+
+                        <div class="Card_Element_Container" >
+                            <div class="img_card" id="img_element_card_box">
+                                <picture>
+                                    <img src="img/Gaming.svg"  />
+                                </picture>
+                            </div>
+                            <span class="text_card_named" id="named_card_text">
+                                Gaming
+                            </span>
+                        </div>
+                    
+                </div>
+            </div>
+        </section>
+        <section class="section_number_four">
+            <div class="catalog_part">
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/Iphone 14 pro.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Apple iPhone 14 Pro Max 128GB Deep Purple (MQ9T3RX/A)
+                        </div>
+                        <div class="Price_Card_Product">
+                            $369
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/camera.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Blackmagic Pocket Cinema Camera 6k
+                        </div>
+                        <div class="Price_Card_Product">
+                            $2535
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/watches.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Apple Watch Series 9 GPS 41mm Starlight Aluminium Case
+                        </div>
+                        <div class="Price_Card_Product">
+                            $399
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/airpods.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            AirPods Max Silver
+                        </div>
+                        <div class="Price_Card_Product">
+                            $549
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                
+
+            </div>
+            <div class="catalog_part">
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/watchesSmart.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Samsung Galaxy Watch6 Classic 47mm Black
+                        </div>
+                        <div class="Price_Card_Product">
+                            $369
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/Samsung.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Galaxy Z Fold5 Unlocked | 256GB | Phantom Black
+                        </div>
+                        <div class="Price_Card_Product">
+                            $1799
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/airpods-2.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Galaxy Buds FE
+                        </div>
+                        <div class="Price_Card_Product">
+                            $99.9
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="Element_Card_Box">
+                    <div class="box_like_card" style="display: flex; justify-content: flex-end; width: 100%;">
+                        <picture>
+                            <img src="img/Heart.svg" alt="">
+                        </picture>
+                    </div>
+                    <div class="box_image_card" style="width: 160px; height: 160px;">
+                        <picture>
+                            <img src="img/ipad.png" alt="">
+                        </picture>
+                    </div>
+                    <div class="Box_info_Card">
+                        <div class="title_card_product">
+                            Apple iPad 9 10.2" 64GB Wi-Fi Silver (MK2L3) 2021
+                        </div>
+                        <div class="Price_Card_Product">
+                            $398
+                        </div>
+                        <div class="Button_Buy_Product">
+                            <button class="buy_product_card_button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <div class="summerSale">
+        <div class="summerSaleText">
+          <p class="summerSaleText_p1">
+            Big Summer <span class="summerSaleText_s">Sale</span>
+          </p>
+          <p class="summerSaleText_p2">
+            Commodo fames vitae vitae leo mauris in. Eu consequat.
+          </p>
+          <button>Shop Now</button>
+        </div>
+      </div>
+      <footer>
+        <section class="info">
+            <div class="logo-text">
+                <div class="footerLogo"></div>
+                <div class="textFooter">
+                    We are a residential interior design firm located in Portland. Our boutique studio offers more than
+                </div>
+            </div>
+            <div class="footerNavigation">
+                <div class="links">
+                    <p class="links_p">Services</p>
+                    <a href="#" class="links_a">Bonus program</a>
+                    <a href="#" class="links_a">Gift cards</a>
+                    <a href="#" class="links_a">Credit and payment</a>
+                    <a href="#" class="links_a">Service contracts</a>
+                    <a href="#" class="links_a">Non-cash account</a>
+                    <a href="#" class="links_a">Payment</a>
+                </div>
+                <div class="links">
+                    <p class="links_p">Assistance to the buyer</p>
+                    <a href="#" class="links_a">Find an order</a>
+                    <a href="#" class="links_a">Terms of delivery</a>
+                    <a href="#" class="links_a">Exchange and return of goods</a>
+                    <a href="#" class="links_a">Guarantee</a>
+                    <a href="#" class="links_a">Frequently asked questions</a>
+                    <a href="#" class="links_a">Terms of use of the site</a>
+                </div>
+            </div>
+        </section>
+        <div class="networks">
+            <a href="#" class="networks_ImgLink"><img src="img/Twitter.svg" alt="Twitter" class="networks_Img" /></a>
+            <a href="#" class="networks_ImgLink"><img src="img/Facebook.svg" alt="Facebook" class="networks_Img" /></a>
+            <a href="#" class="networks_ImgLink"><img src="img/Tiktok.svg" alt="TikTok" class="networks_Img" /></a>
+            <a href="#" class="networks_ImgLink"><img src="img/Instagram.svg" alt="Instagram" class="networks_Img" /></a>
+        </div>
+    </footer>
+    
+</body>
+</html>
